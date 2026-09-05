@@ -116,6 +116,19 @@ perfect recall with interpretable feature importances, plus the cheapest
 robust deployment among the tied-perfect models. `results/probability_timeline.png`
 shows each model's confidence ramp around the true onset.
 
+## Live dashboard / demo app
+
+```bash
+python app.py                # http://localhost:8000
+```
+
+Self-contained web dashboard (stdlib HTTP, no extra dependencies): model
+leaderboard and McNemar table from `results/`, all result plots, and a **live
+inference playground** — sweep the simulation timeline, switch models
+(including the LSTM with its temporal windows), and apply what-if
+perturbations (Δ flow-out, Δ formation pressure, Δ pit volume) to watch
+P(kick) respond in real time, with a six-model consensus readout per row.
+
 ## Repository layout
 
 ```
@@ -126,6 +139,7 @@ shows each model's confidence ramp around the true onset.
 ├── results/                     # metrics.csv, mcnemar.csv, *.png,
 │                                #   test_predictions.csv, summary.md
 ├── inference.py                 # CLI for new rows / sequences
+├── app.py                       # web dashboard + inference playground
 └── requirements.txt             # pinned dependencies
 ```
 
