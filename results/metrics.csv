@@ -1,0 +1,7 @@
+Model,Accuracy,Precision,Recall,F1,ROC-AUC,CV Recall (train)
+Decision Tree,1.0,1.0,1.0,1.0,1.0,1.0
+Random Forest,1.0,1.0,1.0,1.0,1.0,1.0
+SVM (RBF),1.0,1.0,1.0,1.0,1.0,1.0
+KNN,1.0,1.0,1.0,1.0,1.0,1.0
+XGBoost,1.0,1.0,1.0,1.0,1.0,0.9992
+LSTM,0.9744,1.0,0.9281,0.9627,0.9994,1.0
