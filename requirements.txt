@@ -1,0 +1,12 @@
+# Gas-kick detection system -- pinned dependencies (Python >= 3.11)
+numpy==1.26.4
+pandas==3.0.5
+scikit-learn==1.9.0
+scipy==1.17.1
+xgboost==3.2.0
+tensorflow-cpu==2.16.2
+imbalanced-learn==0.14.2
+matplotlib==3.11.1
+seaborn==0.13.2
+statsmodels==0.15.0
+joblib==1.6.0

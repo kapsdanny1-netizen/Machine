@@ -1,0 +1,8 @@
+{
+  "decision_tree": 1.0,
+  "random_forest": 1.0,
+  "svm": 1.0,
+  "knn": 1.0,
+  "xgboost": 0.999163179916318,
+  "lstm": 1.0
+}

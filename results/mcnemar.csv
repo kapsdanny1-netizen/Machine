@@ -1,0 +1,16 @@
+model_a,model_b,statistic,p_value,significant (p<0.05),note
+Decision Tree,Random Forest,0.0,1.0,False,
+Decision Tree,SVM (RBF),0.0,1.0,False,
+Decision Tree,KNN,0.0,1.0,False,
+Decision Tree,XGBoost,0.0,1.0,False,
+Decision Tree,LSTM,10.0833,0.0015,True,LSTM unit = overlapping windows
+Random Forest,SVM (RBF),0.0,1.0,False,
+Random Forest,KNN,0.0,1.0,False,
+Random Forest,XGBoost,0.0,1.0,False,
+Random Forest,LSTM,10.0833,0.0015,True,LSTM unit = overlapping windows
+SVM (RBF),KNN,0.0,1.0,False,
+SVM (RBF),XGBoost,0.0,1.0,False,
+SVM (RBF),LSTM,10.0833,0.0015,True,LSTM unit = overlapping windows
+KNN,XGBoost,0.0,1.0,False,
+KNN,LSTM,10.0833,0.0015,True,LSTM unit = overlapping windows
+XGBoost,LSTM,10.0833,0.0015,True,LSTM unit = overlapping windows
